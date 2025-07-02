@@ -120,29 +120,29 @@ uninstall_server() {
 
 show_banner() {
     echo -e "\e[1;36m---------------------------------------------"
-    echo " AGNUDP Manager"
-    echo " (c) 2023 Khaled AGN"
-    echo " Telegram: @khaledagn"
+    echo " JUEUDP မန်နေဂျာ"
+    echo " (c) JueHtet မှစေတနာဖြင့်လုပ်ထားပေးပါတယ်"
+    echo " Telegram: @Juevpn"
     echo "---------------------------------------------\e[0m"
 }
 
 show_menu() {
     echo -e "\e[1;36m----------------------------"
-    echo " AGNUDP Manager"
+    echo " JUEUDP Manager"
     echo -e "----------------------------\e[0m"
-    echo -e "\e[1;32m1. Add new user"
-    echo "2. Edit user password"
-    echo "3. Delete user"
-    echo "4. Show users"
-    echo "5. Change domain"
-    echo "6. Change obfuscation string"
-    echo "7. Change upload speed"
-    echo "8. Change download speed"
-    echo "9. Restart server"
-    echo "10. Uninstall server"
-    echo -e "11. Exit\e[0m"
+    echo -e "\e[1;32m1. အကောင့်ဖွင့်မည်"
+    echo "2. စကားဝှက်ပြင်မည်"
+    echo "3. အကောင့်ဖျက်မည်"
+    echo "4. အကောင့်အားလုံးကြည့်မည်"
+    echo "5. ဒိုမိန်းပြန်ပြင်မည်"
+    echo "6. Obfus ကိုပြင်မည်"
+    echo "7. Upload speed ပြုပြင်မည်"
+    echo "8. Download speed ပြုပြင်မည်"
+    echo "9. ဆာပါကိုပြန်လာ်စတင်မည်"
+    echo "10. ဆာဗာကိုဖျက်သိမ်းမည်"
+    echo -e "11. ထွက်မည်\e[0m"
     echo -e "\e[1;36m----------------------------"
-    echo -e "Enter your choice: \e[0m"
+    echo -e "ဘယ်နံပါတ်ကိုရွေးချင်ပါသလဲ?: \e[0m"
 }
 
 show_banner
