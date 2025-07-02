@@ -162,7 +162,7 @@ fi
   if [[ $1 == "" ]]; then
     clear && printf '\e[3J'
 echo -e "${GRAY}[${RED}-${GRAY}]${RED} ────────────── /// ─────────────── "
-echo -e "${YELLOW}   【          ${RED}ZIVPN            ${YELLOW}】 "
+echo -e "${YELLOW}   【          ${RED}JUEVPN            ${YELLOW}】 "
 echo -e "${YELLOW} › ${WHITE}Linux Dist:${GREEN} $distribution "
 echo -e "${YELLOW} › ${WHITE}IP:${GREEN} $IP "
 echo -e "${YELLOW} › ${WHITE}Network:${GREEN} $Network "
@@ -178,7 +178,7 @@ ${YELLOW}[${GREEN}6${YELLOW}] ${RED} › ${WHITE} ပိတ်မည်
 ${YELLOW}[${GREEN}7${YELLOW}] ${RED} › ${WHITE} ပြန်လည်စတင်မည်
 ${YELLOW}[${GREEN}0${YELLOW}] ${RED} › ${WHITE} ထွက်ခွာမည်
 ${GRAY}[${RED}-${GRAY}]${RED} ────────────── /// ─────────────── "
-echo -e "${YELLOW} Δ CHOOSE AN OPTION:      ${YELLOW}"
+echo -e "${YELLOW} Δ နံပါတ် 2 ကိုသာရွေးပါ:      ${YELLOW}"
 read -p " : " option
 tput cuu1 >&2 && tput dl1 >&2
 else
