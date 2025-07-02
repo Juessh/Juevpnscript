@@ -168,9 +168,9 @@ echo -e "${YELLOW} › ${WHITE}IP:${GREEN} $IP "
 echo -e "${YELLOW} › ${WHITE}Network:${GREEN} $Network "
 echo -e "${YELLOW} › ${WHITE}Running:${GREEN} $ports "
 echo -e "${GRAY}[${RED}-${GRAY}]${RED} ────────────── /// ─────────────── "
-echo -e "${YELLOW}[${GREEN}1${YELLOW}] ${RED} › ${WHITE} INSTALL ZIVPN V1 (5666) [သုံးမရသေးပါ]
-${YELLOW}[${GREEN}2${YELLOW}] ${RED} › ${WHITE} INSTALL UDP V2 AMD (5667) [ဒီကောင်သုံးပါ]
-${YELLOW}[${GREEN}3${YELLOW}] ${RED} › ${WHITE} INSTALL UDP V2 ARM (5667)
+echo -e "${YELLOW}[${GREEN}1${YELLOW}] ${RED} › ${WHITE} INSTALL JUEUDP V1 (5666) [သုံးမရသေးပါ]
+${YELLOW}[${GREEN}2${YELLOW}] ${RED} › ${WHITE} INSTALL JUEUDP V2 AMD (5667) [ဒီကောင်သုံးပါ]
+${YELLOW}[${GREEN}3${YELLOW}] ${RED} › ${WHITE} INSTALL JUEUDP V2 ARM (5667)
 ${YELLOW}[${GREEN}4${YELLOW}] ${RED} › ${WHITE} UNINSTALL JUEUDP
 ${YELLOW}[${GREEN} ${YELLOW}] ${RED} › ${WHITE} ────────
 ${YELLOW}[${GREEN}5${YELLOW}] ${RED} › ${WHITE} ဖွင့်မည်
