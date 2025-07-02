@@ -8,7 +8,7 @@
 set -e
 
 # ဒိုမိန်း သို့မဟုတ် အိုင်ပီထည့်ပါ
-DOMAIN="ဒီနေရာမာထည့်ပေးပါ"
+DOMAIN="eg.juevpn.com"
 
 # PROTOCOL
 PROTOCOL="udp"
@@ -17,10 +17,10 @@ PROTOCOL="udp"
 UDP_PORT=":36712"
 
 # OBFS
-OBFS="နာမည်ရေးပါ"
+OBFS="username"
 
 # စကားဝှက်ထည့်ပါ
-PASSWORD="စကားဝှက်ရေးပါ"
+PASSWORD="password"
 
 # Script paths
 SCRIPT_NAME="$(basename "$0")"
