@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # Constants
-PYTHON_SCRIPT_URL="https://github.com/khaledagn/AGN-SSH-Websocket-VPN/raw/main/agn_websocket.py"
-AGN_MANAGER_SCRIPT_URL="https://github.com/khaledagn/AGN-SSH-Websocket-VPN/raw/main/agnws_manager.sh"
-INSTALL_DIR="/opt/agn_websocket"
+PYTHON_SCRIPT_URL="https://raw.githubusercontent.com/Juessh/Juevpnscript/main/jue_websocket.py"
+AGN_MANAGER_SCRIPT_URL="https://raw.githubusercontent.com/Juessh/Juevpnscript/main/juews_manager.sh"
+INSTALL_DIR="/opt/jue_websocket"
 SYSTEMD_SERVICE_FILE="/etc/systemd/system/agn-websocket.service"
 PYTHON_BIN=$(command -v python3)  # Ensure python3 is available
-AGN_MANAGER_SCRIPT="agnws_manager.sh"
+AGN_MANAGER_SCRIPT="juews_manager.sh"
 AGN_MANAGER_PATH="$INSTALL_DIR/$AGN_MANAGER_SCRIPT"
 AGN_MANAGER_LINK="/usr/local/bin/websocket"
 
@@ -22,12 +22,12 @@ install_required_packages() {
 # Function to download Python proxy script using wget
 download_agn_websocket() {
     echo "Downloading Python proxy script from $PYTHON_SCRIPT_URL..."
-    wget -O "$INSTALL_DIR/agn_websocket.py" "$PYTHON_SCRIPT_URL"
+    wget -O "$INSTALL_DIR/jue_websocket.py" "$PYTHON_SCRIPT_URL"
 }
 
-# Function to download agnws_manager.sh script using wget
+# Function to download juews_manager.sh script using wget
 download_agnws_manager() {
-    echo "Downloading $AGN_MANAGER_SCRIPT from $AGN_MANAGER_SCRIPT_URL..."
+    echo "Downloading $JUE_MANAGER_SCRIPT from $JUE_MANAGER_SCRIPT_URL..."
     wget -O "$AGN_MANAGER_PATH" "$AGN_MANAGER_SCRIPT_URL"
     chmod +x "$AGN_MANAGER_PATH"
     ln -sf "$AGN_MANAGER_PATH" "$AGN_MANAGER_LINK"
@@ -76,8 +76,8 @@ display_banner() {
     cat << "EOF"
 **********************************************
 *                                            *
-*                Khaled AGN                  *
-*      Visit me on Telegram: @khaledagn      *
+*                JUE HTET                  *
+*      Visit me on Telegram: @Juevpn      *
 *                                            *
 **********************************************
 EOF
