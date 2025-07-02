@@ -1,2 +1,0 @@
-# Juevpnscript
-SSHPLUS
