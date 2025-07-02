@@ -9,8 +9,8 @@ display_banner() {
    cat << "EOF"
 *************************************************
 *                                               *
-*                  Khaled AGN                   *
-*        Visit me on Telegram: @khaledagn       *
+*                  Jue Htet Script                  *
+*        Visit me on Telegram: @Juevpn       *
 *                                               *
 *************************************************
 EOF
@@ -20,14 +20,14 @@ EOF
 show_menu() {
    clear
    display_banner
-   echo "Websocket VPN Manager Menu"
-   echo "1. Check Server Status"
-   echo "2. Manage SSH Users"
-   echo "3. Change Listening Port"
-   echo "4. Restart WebSocket Service"
-   echo "5. Uninstall Websocket"
-   echo "6. Server Information"
-   echo "7. Exit"
+   echo "Jue Websocket Manager Menu"
+   echo "1. ဆာဗာအွန်းလိုင်းဖြစ်မဖြစ်စစ်ရန်"
+   echo "2. အသုံးပြုသူများစစ်ရန်"
+   echo "3. Port ချိန်းရန်"
+   echo "4. ဆာဗာ reset ချရန်"
+   echo "5. ဒေတာဖျက်ရန်"
+   echo "6. ဆာဗာအချက်အလက်များ"
+   echo "7. ပြန်ထွက်ရန်"
 }
 
 # Function to check server status
@@ -81,13 +81,13 @@ list_ssh_users() {
 manage_ssh_users() {
    while true; do
        clear
-       echo -e "SSH User Management\n"
-       echo "1. Add SSH User"
-       echo "2. Remove SSH User"
-       echo "3. List SSH Users"
-       echo "4. Back to Main Menu"
+       echo -e "အသုံးပြသူစားပြင်ရန်\n"
+       echo "1. အကောင့်ဖွင့်ရန်"
+       echo "2. အကောင့်ဖယ်ရှားရန်"
+       echo "3. အသုံးပြုသူများစားရင်းကြည့်ရန်"
+       echo "4. မူလနေရာသို့ ပြန်သွရန်"
 
-       read -p "Enter your choice: " choice
+       read -p "စိတ်ကြိုက်နံပါတ်ရွေးပါ: " choice
 
        case $choice in
            1) add_ssh_user ;;
