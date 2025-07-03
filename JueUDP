@@ -42,7 +42,7 @@ echo -e "${RED} ────────────── /// ─────�
 echo -e "${YELLOW}This option will install ZIVPN version 2 AMD, UDP port range will be 6000:19999 redirected to 5667"
 echo -e "${YELLOW}Continue?"
 while [[ ${yesno} != @(s|S|y|Y|n|N) ]]; do
-read -p "[S/N]: " yesno
+read -p "[S ဟုရိုက်ပါ]: " yesno
 tput cuu1 && tput dl1
 done
 if [[ ${yesno} = @(s|S|y|Y) ]]; then
