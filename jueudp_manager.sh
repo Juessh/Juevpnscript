@@ -64,7 +64,7 @@ delete_user() {
 }
 
 show_users() {
-    echo -e "\n\e[1;34mCurrent users:\e[0m"
+    echo -e "\n\e[1;34mအကောင့်များအားလုံး:\e[0m"
     sqlite3 "$USER_DB" "SELECT username FROM users;"
 }
 
@@ -141,7 +141,7 @@ show_menu() {
     echo "9. ဆာပါကိုပြန်လည်စတင်မည်"
     echo "10.ဆာဗာကိုဖျက်သိမ်းမည်"
     echo -e "11.ထွက်မည်\e[0m"
-    echo -e "\e[1;36m*************************"
+    echo -e "\e[1;36m***************************"
     echo -e "ဘယ်နံပါတ်ကိုရွေးချင်ပါသလဲ?: \e[0m"
 }
 
