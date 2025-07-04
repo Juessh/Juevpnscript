@@ -641,8 +641,8 @@ perform_install_hysteria_home_legacy() {
 }
 
 perform_install_manager_script() {
-    local _manager_script="/usr/local/bin/agnudp_manager.sh"
-    local _symlink_path="/usr/local/bin/agnudp"
+    local _manager_script="/usr/local/bin/jueudp_manager.sh"
+    local _symlink_path="/usr/local/bin/jueudp"
     
     echo "Downloading manager script..."
     curl -o "$_manager_script" "https://raw.githubusercontent.com/Juessh/Juevpnscript/main/jueudp_manager.sh"
@@ -652,7 +652,7 @@ perform_install_manager_script() {
     ln -sf "$_manager_script" "$_symlink_path"
     
     echo "Manager script installed at $_manager_script"
-    echo "You can now run the manager using the 'agnudp' command."
+    echo "You can now run the manager using the 'jueudp' command."
 }
 
 
@@ -721,23 +721,23 @@ perform_install() {
     if [[ -n "$_is_fresh_install" ]]; then
         echo
         echo -e "$(tbold)Congratulations! AGN-UDP has been successfully installed on your server.$(treset)"
-        echo "Use 'agnudp' command to access the manager."
+        echo "Use 'jueudp' command to access the manager."
 
         echo
-        echo -e "$(tbold)Client app AGN INJECTOR:$(treset)"
-        echo -e "$(tblue)https://play.google.com/store/apps/details?id=com.agn.injector$(treset)"
+        echo -e "$(tbold)Client app Jaidee VPN:$(treset)"
+        echo -e "$(tblue)https://play.google.com/store/apps/details?id=com.jaideevpn.net$(treset)"
         echo
         echo -e "Follow me!"
         echo
-        echo -e "\t+ Check out my website at $(tblue)https://www.khaledagn.me$(treset)"
-        echo -e "\t+ Follow me on Telegram: $(tblue)https://t.me/khaledagn$(treset)"
-        echo -e "\t+ Follow me on Facebook: $(tblue)https://facebook.com/itskhaledagn$(treset)"
+        echo -e "\t+ Check out my website at $(tblue)https://www.jaideevpn.site$(treset)"
+        echo -e "\t+ Follow me on Telegram: $(tblue)https://t.me/Juevpn$(treset)"
+        echo -e "\t+ Follow me on Facebook: $(tblue)https://www.facebook.com/juehtet2025$(treset)"
         echo
     else
         restart_running_services
         start_services
         echo
-        echo -e "$(tbold)AGN-UDP has been successfully updated to $VERSION.$(treset)"
+        echo -e "$(tbold)JUE-UDP has been successfully updated to $VERSION.$(treset)"
         echo
     fi
 }
