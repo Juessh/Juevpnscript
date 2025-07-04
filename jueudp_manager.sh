@@ -120,7 +120,7 @@ uninstall_server() {
 
 show_banner() {
     echo -e "\e[1;36m---------------------------------------------"
-    echo " JUEUDP မန်နေဂျာ"
+    echo " Admin JueHtet"
     echo " (c) JueHtet မှစေတနာဖြင့်လုပ်ထားပေးပါတယ်"
     echo " Telegram: @Juevpn"
     echo "---------------------------------------------\e[0m"
@@ -128,7 +128,7 @@ show_banner() {
 
 show_menu() {
     echo -e "\e[1;36m----------------------------"
-    echo " JUEUDP Manager"
+    echo " JUEUDP MENU"
     echo -e "----------------------------\e[0m"
     echo -e "\e[1;32m1. အကောင့်ဖွင့်မည်"
     echo "2. စကားဝှက်ပြင်မည်"
