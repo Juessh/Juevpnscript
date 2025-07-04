@@ -21,9 +21,9 @@ update_userpass_config() {
 }
 
 add_user() {
-    echo -e "\n\e[1;34mEnter username:\e[0m"
+    echo -e "\n\e[1;34mနာမည်ထည့်ပါ:\e[0m"
     read -r username
-    echo -e "\e[1;34mEnter password:\e[0m"
+    echo -e "\e[1;34mစကားဝှက်ထည့်ပါ:\e[0m"
     read -r password
     sqlite3 "$USER_DB" "INSERT INTO users (username, password) VALUES ('$username', '$password');"
     if [[ $? -eq 0 ]]; then
