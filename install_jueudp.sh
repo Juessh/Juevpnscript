@@ -17,10 +17,10 @@ PROTOCOL="udp"
 UDP_PORT=":36712"
 
 # OBFS
-OBFS="username"
+OBFS="jaideevpn"
 
 # စကားဝှက်ထည့်ပါ
-PASSWORD="password"
+PASSWORD="jaideevpn"
 
 # Script paths
 SCRIPT_NAME="$(basename "$0")"
