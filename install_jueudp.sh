@@ -14,7 +14,7 @@ DOMAIN="eg.juevpn.com"
 PROTOCOL="udp"
 
 # UDP PORT
-UDP_PORT=":36712"
+UDP_PORT=":5667"
 
 # OBFS
 OBFS="jaideevpn"
