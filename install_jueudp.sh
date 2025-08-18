@@ -8,7 +8,7 @@
 set -e
 
 # Domain Name
-DOMAIN="vpn.khaledagn.me"
+DOMAIN="eg.jueudp.com"
 
 # PROTOCOL
 PROTOCOL="udp"
@@ -17,10 +17,10 @@ PROTOCOL="udp"
 UDP_PORT=":36712"
 
 # OBFS
-OBFS="agnudp"
+OBFS="jaideevpn"
 
 # PASSWORDS
-PASSWORD="agnudp"
+PASSWORD="jaideevpn"
 
 # Script paths
 SCRIPT_NAME="$(basename "$0")"
