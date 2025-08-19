@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 #
-# Try `install_agnudp.sh --help` for usage.
+# Try `install_jueudp.sh --help` for usage.
 #
-# (c) 2023 Khaled AGN
+# (c) 2023 Jue Htet
 #
 
 set -e
